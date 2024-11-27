@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.textUnderline { 
+    position: relative; 
+    display: inline-block;
+    
+ } 
+
+
+.textUnderline::after { 
+    content: ''; 
+    position: absolute; 
+    left: 35%; bottom: 15%;
+    width: 20%; 
+    height: 3px; 
+    background-color: rgb(173, 173, 237);
+   
+}
